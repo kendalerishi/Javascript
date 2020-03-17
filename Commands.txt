@@ -1,0 +1,31 @@
+Åcor create a new repository on the command line
+echo "# Javascript" >> README.md
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/kendalerishi/Javascript.git
+git push -u origin master
+
+
+5 commands for the first time
+From 2nd time onwards for the same folder we use only 3 commands :
+git add .
+git commit -m "first commit"
+git push -u origin master
+
+
+branching  (newfeature is branch of master) another developer will commit code in newfeature. Then he raise a pull request. If you have deleted any file in newfeature branch and push code and merge to master then from master also that file will be deleted.
+git checkout -b newfeature
+git add .
+git commit -m "first commit"
+git push -u origin newfeature
+
+
+
+
+
+Åcor push an existing repository from the command line
+git remote add origin https://github.com/kendalerishi/Javascript.git
+git push -u origin master
+
+

@@ -1,0 +1,8 @@
+15-03
+User asked to enter any number between 1 to 100
+If that number matches with computer generated random number then user wins or loses
+
+
+16-03
+Give 5 chances to user. Every time show number of chances left using Switch case. At the end show message Game Over.
+
